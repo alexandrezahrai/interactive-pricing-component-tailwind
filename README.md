@@ -40,7 +40,7 @@ I learned a lot about range type inputs and how to manipulate and style them!
 ### Useful resources
 
 - [How To - Range Sliders](https://www.w3schools.com/howto/howto_js_rangeslider.asp) - This gave me a basic overview of how range sliders work.
-- [<input type="range">](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range) - This resource gave me a more indepth overview of the range input type.
+- [Mozilla Developer Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range) - This resource gave me a more indepth overview of the range input type.
 
 ## Author
 
