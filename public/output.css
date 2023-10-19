@@ -524,20 +524,17 @@ video {
     max-width: 1536px;
   }
 }
-.absolute {
-  position: absolute;
-}
 .\!absolute {
   position: absolute !important;
+}
+.absolute {
+  position: absolute;
 }
 .relative {
   position: relative;
 }
 .inset-0 {
   inset: 0px;
-}
-.bottom-0 {
-  bottom: 0px;
 }
 .bottom-4 {
   bottom: 1rem;
@@ -1014,10 +1011,6 @@ input:checked + .switch-slider:before {
 
   .xl\:h-\[60\%\] {
     height: 60%;
-  }
-
-  .xl\:h-2\/5 {
-    height: 40%;
   }
 }
 
