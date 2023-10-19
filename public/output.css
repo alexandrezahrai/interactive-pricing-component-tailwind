@@ -527,11 +527,20 @@ video {
 .absolute {
   position: absolute;
 }
+.\!absolute {
+  position: absolute !important;
+}
 .relative {
   position: relative;
 }
 .inset-0 {
   inset: 0px;
+}
+.bottom-0 {
+  bottom: 0px;
+}
+.bottom-4 {
+  bottom: 1rem;
 }
 .mx-auto {
   margin-left: auto;
@@ -597,9 +606,6 @@ video {
 }
 .max-w-\[600px\] {
   max-width: 600px;
-}
-.animate-\[fade-in\] {
-  animation: fade-in;
 }
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1008,6 +1014,10 @@ input:checked + .switch-slider:before {
 
   .xl\:h-\[60\%\] {
     height: 60%;
+  }
+
+  .xl\:h-2\/5 {
+    height: 40%;
   }
 }
 
