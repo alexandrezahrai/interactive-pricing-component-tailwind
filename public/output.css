@@ -598,6 +598,9 @@ video {
 .max-w-\[600px\] {
   max-width: 600px;
 }
+.animate-\[fade-in\] {
+  animation: fade-in;
+}
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -701,6 +704,9 @@ video {
 }
 .text-\[16px\] {
   font-size: 16px;
+}
+.font-bold {
+  font-weight: 700;
 }
 .leading-7 {
   line-height: 1.75rem;

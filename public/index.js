@@ -20,7 +20,7 @@ monthlySlider.oninput = function () {
   }
 };
 
-// Update the page views based on the yearly pricing switch
+// Update the price per month based on the yearly pricing switch
 switchCheckbox.addEventListener("change", function () {
   let value = Number(monthlySlider.value);
   if (switchCheckbox.checked === true) {
@@ -28,5 +28,4 @@ switchCheckbox.addEventListener("change", function () {
   } else {
     output.innerHTML = `$${value.toFixed(2)}`;
   }
-  pageViewsElement.innerHTML = pageViewsSteps[value / 6 - 1] + " pageviews";
 });
