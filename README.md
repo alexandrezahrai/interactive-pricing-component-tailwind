@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Design preview for the Interactive pricing component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Interactive pricing component coding challenge](/public/desktop-live-screenshot.png)
 
 ### Link(s)
 
